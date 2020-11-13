@@ -1,5 +1,10 @@
-<%= simple_form_for @dose do |f| %>
-  <%= f.input :description %>
-  <%= f.association :ingredient as: :radio_buttons %>
-  <%= f.button :submit %>
-<% end %>
+<div class="container">
+  <%= simple_form_for @dose do |f| %>
+    <%= f.input :description %>
+    <%= f.input :cocktail %>
+    <%= f.association :cocktails %>
+    <%= f.input :ingredient %>
+    <%= f.association :ingredients %>
+    <%= f.button :submit %>
+  <% end %>
+</div>

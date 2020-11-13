@@ -19,7 +19,10 @@ class CocktailsController < ApplicationController
 
   def show
     @cocktail = Cocktail.find(params[:id])
+    @dose = Dose.new
   end
+
+  private
 
   def cocktail_params
     params.require(:cocktail).permit(:name)
