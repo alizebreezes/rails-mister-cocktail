@@ -3,7 +3,7 @@
 
   <ul class="index_cocktails">
     <% @cocktails.each do |cocktail| %>
-    <li><%= cocktail.name %></li>
+    <li><%= link_to cocktail.name, cocktail_path %></li>
     <% end %>
   </ul>
   <br>
