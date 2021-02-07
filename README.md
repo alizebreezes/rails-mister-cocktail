@@ -1,9 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This was the first web-app with some design. 
+MVC model for the cotail recipes and data management. 
 
-Things you may want to cover:
+
+What I leant this project? 
 
 * Ruby version
 
@@ -21,4 +22,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... and more!
