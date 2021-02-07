@@ -1,4 +1,4 @@
-# README
+# CocktailBar486
 
 This was the first web-app with some design. 
 MVC model for the cotail recipes and data management. 
