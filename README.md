@@ -4,7 +4,7 @@ This was the first web-app with some design.
 MVC model for the cotail recipes and data management. 
 
 ### Heroku Deployed Version
--oasis-63001.herokuapp.com/cocktails/new#
+calm-oasis-63001.herokuapp.com/cocktails
 
 
 ## What I leant this project? 
